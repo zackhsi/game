@@ -1,3 +1,5 @@
 #!/bin/bash
 set -e
-python guesser.py
+DIR="$(dirname ${BASH_SOURCE[0]})"
+
+python $DIR/guesser.py

@@ -10,7 +10,7 @@ print 'I have a secret number! Can you guess it?'
 
 
 def guess(number):
-    print 'You guessed {}, let me think...'.format(number)
+    print 'You guessed {0}, let me think...'.format(number)
     sleep(1)
     if number == answer:
         print '>> Correct :)'
